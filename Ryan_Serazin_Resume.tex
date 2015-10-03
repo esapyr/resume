@@ -1,15 +1,22 @@
-\documentclass[line]{res}
+\documentclass[line,11pt]{res}
 \usepackage{multicol}
-\setlength{\columnsep}{1cm}
+\usepackage[margin=1cm]{geometry}
+\setlength{\resumewidth}{19.5cm}
+\setlength{\columnsep}{1.5cm}
 \newsectionwidth{0cm}
 
 \begin{document}
-\name{Ryan Serazin}
+\name{\Huge Ryan Serazin}
+\address{8126 Lakeshore Rd\\ Burtchville, MI\\ 48059}
+\address{(810) 304-6041\\ ryan.serazin@gmail.com\\ github.com/esapyr}
 
 \begin{resume}
 \begin{multicols}{2}
 
-\section{Personal Projects}
+\section{\underline{\Large Education}}
+B.S. of Computer Science with a minor in philosophy from The Rochester Institute of Technology expected May 2016. 
+
+\section{\underline{\Large Personal Projects}}
 \begin{itemize}
     \item Wrote a simple interpreter for McCarthy's original lisp in rust.
     \item Wrote an asynchronous graphical client server chat application in clojure using the aleph channel library.
@@ -18,13 +25,7 @@
     \item Hacked on a clojure app to help manage service hour reporting.
 \end{itemize}
 
-\section{Education}
-B.S. of Computer Science with a minor in philosophy from The Rochester Institute of Technology expected May 2016. 
-\textbf{Relevant Courses}: Data Mining, Functional Programming Skills, Software Engineering, Artificial Intelligence, 
-Programming Language Concepts, Professional Communication, Concepts of Computer Systems, Operating Systems, 
-Computer Science Theory, Data Communication, Analysis of Algorithms, Parallel and Distributed Systems.
-
-\section{Skills}
+\section{\underline{\Large Skills}}
 \begin{itemize}
     \item \textbf{Languages:} Clojure/Clojurescript, Haskell, R, Rust, Python, Java, Javascript, HTML/CSS, PHP, C/C++
     \item \textbf{Libraries \& Applications:}  Elasticsearch, React, Angular, Postgresql, Flask, Django, Ring/Compojure, Nodejs, D3
@@ -33,7 +34,7 @@ Computer Science Theory, Data Communication, Analysis of Algorithms, Parallel an
     \item \textbf{Source Control:} git
 \end{itemize}
 
-\section{Extracurriculars}
+\section{\underline{\Large Extracurriculars}}
 \begin{itemize}
     \item Served as service chair for the Iota Beta chapter of Kappa Delta Rho from Fall 2013 to Spring 2014.
     \item Participated in HackMIT in 2013.
@@ -42,8 +43,8 @@ Computer Science Theory, Data Communication, Analysis of Algorithms, Parallel an
 
 \columnbreak
 
-\section{Internships \& Co-ops}
-\textit{Showcase IDX (subsidiary of Tourbuzz)\\ Atlanta GA \hfill{Summer-Fall 2015}}
+\section{\underline{\Large Internships \& Co-ops}}
+\textit{\textbf{\\Showcase IDX (subsidiary of Tourbuzz)}\\ Atlanta GA \hfill{Summer-Fall 2015}}
 \begin{itemize}
     \item Took over responsiblities for all Multiple Listing Service data, including importing and cleaning, after lead developer
           left to pursue his startup full time.  
@@ -55,7 +56,7 @@ Computer Science Theory, Data Communication, Analysis of Algorithms, Parallel an
     \item Wrote an tool that allowed real estate agents to personalize the CSS for our real estate search engine.
 \end{itemize}
 
-\textit{Tourbuzz\\ Atlanta GA \hfill{Summer 2014}}
+\textit{\textbf{Tourbuzz}\\ Atlanta GA \hfill{Summer 2014}}
 \begin{itemize}
     \item Wrote an on the fly dieselpoint query language to elasticsearch query language transpiler in Clojure 
           using instaparse and a hand written context free grammar.
@@ -64,13 +65,13 @@ Computer Science Theory, Data Communication, Analysis of Algorithms, Parallel an
           support member over hipchat.
 \end{itemize}
 
-\textit{The National Technical Institue for the Deaf\\ Rochester NY \hfill{Summer 2013}}
+\textit{\textbf{The National Technical Institue for the Deaf}\\ Rochester NY \hfill{Summer 2013}}
 \begin{itemize}
     \item Wrote and compiled a very limited graphical front end for editing ASL educational video with FFMPEG using Tkinter in Python.
     \item Maintained a course management system written in Javascript and ASP classic.
 \end{itemize}
 
-\textit{Maclean-Fogg Component Solutions\\ Royal Oak MI \hfill{Summer 2012}}
+\textit{\textbf{Maclean-Fogg Component Solutions}\\ Royal Oak MI \hfill{Summer 2012}}
 \begin{itemize}
     \item Designed and implemented a simple ASP.net website and backing database for all maintenance 
           department staff at Maclean-Fogg's facilities to track part usage.
